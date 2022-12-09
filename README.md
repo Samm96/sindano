@@ -1,5 +1,5 @@
 # Sindano Health Externship
-A landing page for the Sinadano company built using React and Storybook. This project was a voluntary collaboration between four other developers and myself.
+A landing page for the Sinadano company built using React and Storybook. This project was a voluntary collaboration between four other developers and myself under the Practicum USA externship program.
 
 # Instructions
 [Notion](https://www.notion.so/Sindano-394de17457e94490b41ab4a1ff099e06)
