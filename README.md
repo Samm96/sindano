@@ -53,5 +53,3 @@ The backend code has its own folder, handling the Serverless code.
 
 ### LinkedIn Feature 👤
 * When opening the modal to request a demo, referencing the option to fill in information from LinkedIn instead of manually, seems to only work properly if the user is on the Chrome browser. It doesn’t function on the Safari browser— instead of filling out information in the appropriate field, Safari opens the landing page. Other browsers have not been tested.
-
-* Notice the comment in `index.js` marked “NEVER DO THIS”. The code between those comments are NOT to be deleted. It is just marked as bad practice to code it that way, but there was no other way to make the LinkedIn feature to function.
