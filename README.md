@@ -40,6 +40,23 @@ The backend code has its own folder, handling the Serverless code.
 
 <hr>
 
+### LinkedIn Autofill Feature
+
+To update the LinkedIn feature you need:
+1. Go to [LinkedIn Developer Solutions](https://developer.linkedin.com)
+2. Create App
+   * Find **Client ID** and **Client Secret**. 
+   * Update redirect URL: {website URL}?linkedin=true
+
+**Frontend**  
+3. In `src` => `Components` => `Modal` => `Form.js` **Client ID** needs to be replaced with the id from Linkedin app. 
+
+**Backend**  
+4. In the file `.env` **Client Secret** needs to be replaced with the secret from the Linkedin app. <br>
+5. In `handler.js` **Client ID** needs to be replaced with the id from the Linkedin app. 
+
+<hr>
+
 ## ⏳ Issues and Limitations
 
 ### Chart 📊
