@@ -70,3 +70,14 @@ To update the LinkedIn feature you need:
 
 ### LinkedIn Feature 👤
 * When opening the modal to request a demo, referencing the option to fill in information from LinkedIn instead of manually, seems to only work properly if the user is on the Chrome browser. It doesn’t function on the Safari browser— instead of filling out information in the appropriate field, Safari opens the landing page. Other browsers have not been tested.
+
+<hr>
+<br>
+
+# 👀 Presentation Media
+
+[Slideshow Presentation](https://www.canva.com/design/DAFU3R7ApWw/oDHPBrpo97m48tzAzDQlqg/view?utm_content=DAFU3R7ApWw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+
+Git Pages [TBA]
+
+
