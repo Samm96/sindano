@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import { HashLink } from 'react-router-hash-link';
 
 /**
  * Content Component
@@ -45,7 +46,7 @@ export const StyledIcons = styled.li`
   max-width: 282px;
 `;
 
-export const StyledLinks = styled.a`
+export const StyledLinks = styled(HashLink)`
   text-decoration: none;
   font-family: ${(props) => `${props.theme.fonts.families.text}`};
   font-size: ${(props) => `${props.theme.fonts.sizes.text_m}`};
@@ -75,13 +76,13 @@ const MobilePopup = ({ open }) => {
       <Div>
         <StyledList open={open}>
           <StyledIcons>
-            <StyledLinks href="#ourstory">About</StyledLinks>
+            <StyledLinks to="#ourstory">About</StyledLinks>
           </StyledIcons>
           <StyledIcons>
-            <StyledLinks href="#whatwedo">What we do</StyledLinks>
+            <StyledLinks to="#whatwedo">What we do</StyledLinks>
           </StyledIcons>
           <StyledIcons>
-            <StyledLinks href="#faq">FAQ</StyledLinks>
+            <StyledLinks to="#faq">FAQ</StyledLinks>
           </StyledIcons>
           <BurgerButton>Request a call</BurgerButton>
         </StyledList>
